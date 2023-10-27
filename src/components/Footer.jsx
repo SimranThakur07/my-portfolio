@@ -10,7 +10,7 @@ const Footer = () => {
         </div>
         <div className="box">
           <img src={img} alt="" />
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae, vitae?</p>
+        <p>Coding is not about typing; it is about thinking and solving problems.</p>
         </div>
         <div className="box2">
           <h5>Links</h5>

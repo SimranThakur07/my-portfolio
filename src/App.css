@@ -17,6 +17,10 @@ body{
     width: 100vw;
     height: auto;
 }
+a{
+    color: unset;
+    text-decoration: none;
+}
 /* ==========================Style for Navbar======================== */
 .navbar{
     background-color: var(--primaryColor3);
@@ -92,7 +96,7 @@ body{
     border-radius: 5px;
     color: var(--primaryColor1);
     font-size: 18px;
-    text-decoration: none;
+    
 }
 .buttons a:first-of-type{
     background-color: var(--primaryColor2);
@@ -310,17 +314,22 @@ body{
 }
 /*==========================End for Skill========================== */
 .projects{
-    width: 80%;
+    width: 90%;
     height: 400px;
     margin: auto;
     margin-top: 35px;
-    background-color: var(--primaryColor3);
+    background-color: var(--primaryColor4);
     padding: 30px;
     display: flex;
     justify-content: center;
     border-radius: 6px;
 }
-
+.projects img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    background-repeat: no-repeat;
+}
 .contact{
     display: flex;
     align-items: center;
@@ -547,11 +556,27 @@ body{
     .experience-section{
         flex-direction: column;
     }
+    .experience-section li{
+        width: 100%;
+        position: relative;
+    }
+    .experience-section li span:nth-child(3){
+        position: absolute;
+        top: -20%;
+       
+    }
+    .experience-section li span:nth-child(6){
+       margin-bottom: 30px;
+       
+    }
 }
 @media (max-width: 450px){
     .description-img,
     .description-img img{
         width: 100vw;
+    }
+    .description h1{
+        font-size: 46px;
     }
     .flex .descriptions:first-of-type,
     .flex .descriptions{
@@ -587,4 +612,48 @@ body{
         width: 90%;
         height: 200px;
     }
+    .line{
+        width: 200px;
+    }
 }
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    border-radius: 10px;
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .project-card{
+    width: 100%;
+    height: 100%;
+    border-bottom: 6px solid var(--primaryColor3);
+    border-radius: 10px;
+    position: relative;
+  }
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .project-desp{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: var(--primaryColor1);
+    color: var(--primaryColor2);
+    width: 100%;
+    padding: 8px 0;
+    border-radius: 0 0 10px 10px;
+  }

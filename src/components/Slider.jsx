@@ -12,7 +12,7 @@ const Slider = () => {
     <h3>I am a frontend developer</h3>
     <div className="buttons">
       <a href={pdf} download>Resume</a>
-      <Link to="#contact">Contact</Link>
+      <Link to="https://mysimport.netlify.app/">Contact</Link>
     </div>
    </div>
    <div className="description-img">
