@@ -20,6 +20,9 @@ const Navbar = () => {
         <li className="nav-item">
           <Link className="nav-link px-3" to="#about">About</Link>
         </li>
+        <li className="nav-item">
+          <Link className="nav-link px-3" to="#project">Project</Link>
+        </li>
         {/* <li className="nav-item">
           <a className="nav-link px-3" href="#experience">Experience</a>
         </li> */}
@@ -29,9 +32,7 @@ const Navbar = () => {
         <li className="nav-item">
           <Link className="nav-link px-3" to="#skill">Skills</Link>
         </li>
-        <li className="nav-item">
-          <Link className="nav-link px-3" to="#project">Project</Link>
-        </li>
+       
         <li className="nav-item">
           <Link className="nav-link px-3" to="#contact">Contact</Link>
         </li>

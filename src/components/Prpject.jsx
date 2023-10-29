@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import img1 from "../assets/feane.png";
 import img2 from "../assets/ecommerce.jpg";
 import img3 from "../assets/port.png";
+import img4 from "../assets/todo.png";
 import { Navigation, FreeMode, } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -74,10 +75,10 @@ const Prpject = () => {
         <SwiperSlide>
           <div className="project-card">
         <Link >
-          <img src={img1} alt="" />
+          <img src={img4} alt="" />
         </Link>
         <div className="project-desp">
-          <Link to='https://github.com/SimranThakur07/Food-Delivery-App' target="_blank">Food Delivery <i className="fa-solid fa-arrow-up-right-from-square"></i></Link>
+          <Link to='https://github.com/SimranThakur07/todo-app-main' target="_blank">Todo App <i className="fa-solid fa-arrow-up-right-from-square"></i></Link>
         </div>
         </div>
         </SwiperSlide>
