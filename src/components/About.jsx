@@ -1,3 +1,4 @@
+
 const About = () => {
   return (
     <>
@@ -8,7 +9,7 @@ const About = () => {
         <div className="flex">
           <div className="descriptions">
             <h3>
-              Welcome to my portfolio website! I'm thrilled to have this
+              Welcome to my portfolio website! I am thrilled to have this
               opportunity to share a bit about myself and my passion for
               frontend development.
             </h3>
@@ -32,23 +33,23 @@ const About = () => {
             </div>
             <div className="social-media">
               <span>
-                <a href="https://www.linkedin.com/in/simranthakur07/" target="_blank" rel="noreferrer">
-                  <i className="fa-brands fa-linkedin"></i>
+                <a href="https://www.linkedin.com/in/simranthakur07/" target="_blank" rel="noreferrer" className="socialContainer containerOne">
+                  <i className="fa-brands fa-linkedin socialSvg"></i>
                 </a>
               </span>
               <span>
-                <a href="https://github.com/SimranThakur07" target="_blank" rel="noreferrer">
-                  <i className="fa-brands fa-github"></i>
+                <a href="https://github.com/SimranThakur07" target="_blank" rel="noreferrer" className="socialContainer containerTwo">
+                  <i className="fa-brands fa-github socialSvg"></i>
                 </a>
               </span>
               <span>
-                <a href="" target="_blank" rel="noreferrer">
-                  <i className="fa-brands fa-instagram"></i>
+                <a href="" target="_blank" rel="noreferrer" className="socialContainer containerThree"> 
+                  <i className="fa-brands fa-instagram socialSvg"></i>
                 </a>
               </span>
               <span>
-                <a href="" target="_blank" rel="noreferrer">
-                  <i className="fa-solid fa-globe"></i>
+                <a href="" target="_blank" rel="noreferrer" className="socialContainer containerFour">
+                  <i className="fa-solid fa-globe socialSvg"></i>
                 </a>
               </span>
             </div>

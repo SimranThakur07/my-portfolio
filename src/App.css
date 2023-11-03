@@ -161,26 +161,78 @@ a{
     font-family: 'Poppins', sans-serif;
     
 }
-.social-media{
-    margin-top: 20px;
-}
-.social-media span{
-    margin: 10px;
+.social-media {
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 25px;
+    gap: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
+    margin-top: 15px;
+  }
+ 
+  /* for all social containers*/
+  .social-media .socialContainer {
+    width: 40px;
+    height: 40px;
     background-color: var(--primaryColor3);
-    font-size: 20px;
-    padding: 6px 10px;
-    border-radius: 50%;
-    cursor: pointer;
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-    transition: transform 0.2s ease;
-}
-.social-media span a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition-duration: .3s;
+  }
+  /* instagram*/
+  .social-media .containerOne:hover {
+    background-color: #d62976;
+    transition-duration: .3s;
+  }
+  /* twitter*/
+  .social-media .containerTwo:hover {
+    background-color: #00acee;
+    transition-duration: .3s;
+  }
+  /* linkdin*/
+  .social-media .containerThree:hover {
+    background-color: #0072b1;
+    transition-duration: .3s;
+  }
+  /* Whatsapp*/
+  .social-media .containerFour:hover {
+    background-color: #128C7E;
+    transition-duration: .3s;
+  }
+  
+  .socialContainer:active {
+    transform: scale(0.9);
+    transition-duration: .3s;
+  }
+  
+  .socialSvg {
+    width: 17px;
     color: var(--primaryColor1);
-}
-.social-media span:hover{
-    transform: translateY(-5px);
-    background-color: var(--primaryColor2);
-}
+  }
+  
+  .socialContainer:hover .socialSvg {
+    animation: slide-in-top 0.3s both;
+  }
+  
+  @keyframes slide-in-top {
+    0% {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+  
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  
 /* ==========================End for About======================== */
 .experience{
     position: relative;
@@ -314,11 +366,10 @@ a{
 }
 /*==========================End for Skill========================== */
 .projects{
-    width: 90%;
+    /* width: 90%; */
     height: 400px;
     margin: auto;
     margin-top: 35px;
-    background-color: var(--primaryColor4);
     padding: 30px;
     display: flex;
     justify-content: center;

@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Contact = () => {
   return (
     <>
@@ -59,7 +61,9 @@ const Contact = () => {
             </div>
             <div>
                 <span>Website</span>
-                <p>wwwabc.com</p>
+                <p>
+                <Link to='https://simran111.netlify.app/' target="_blank">https://simran111.netlify.app/</Link>
+                </p>
             </div>
           </div>
         </div>

@@ -15,24 +15,24 @@ const Footer = () => {
         <div className="box2">
           <h5>Links</h5>
         <div className="social-media">
-              <span>
-              <a href="https://www.linkedin.com/in/simranthakur07/" target="_blank" rel="noreferrer">
-                  <i className="fa-brands fa-linkedin"></i>
+        <span>
+                <a href="https://www.linkedin.com/in/simranthakur07/" target="_blank" rel="noreferrer" className="socialContainer containerOne">
+                  <i className="fa-brands fa-linkedin socialSvg"></i>
                 </a>
               </span>
               <span>
-              <a href="https://github.com/SimranThakur07" target="_blank" rel="noreferrer">
-                  <i className="fa-brands fa-github"></i>
+                <a href="https://github.com/SimranThakur07" target="_blank" rel="noreferrer" className="socialContainer containerTwo">
+                  <i className="fa-brands fa-github socialSvg"></i>
                 </a>
               </span>
               <span>
-                <a href="mailto:thakursimran1207@gmail.com">
-                <i className="fa-solid fa-envelope"></i>
+                <a href="" target="_blank" rel="noreferrer" className="socialContainer containerThree"> 
+                  <i className="fa-brands fa-instagram socialSvg"></i>
                 </a>
               </span>
               <span>
-                <a href="">
-                  <i className="fa-solid fa-globe"></i>
+                <a href="" target="_blank" rel="noreferrer" className="socialContainer containerFour">
+                  <i className="fa-solid fa-globe socialSvg"></i>
                 </a>
               </span>
             </div>
