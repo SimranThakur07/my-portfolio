@@ -41,7 +41,7 @@ a{
     font-size: 18px;
 }
 .navbar-brand{
-    color: var(--primaryColor2);
+    color: var(--primaryColor2) !important;
     font-size: 26px;
     letter-spacing: 2px;
 }
@@ -367,7 +367,7 @@ a{
 /*==========================End for Skill========================== */
 .projects{
     /* width: 90%; */
-    height: 400px;
+    height: 380px;
     margin: auto;
     margin-top: 35px;
     padding: 30px;
@@ -523,6 +523,16 @@ a{
   .navbar-toggler-icon{
     color: var(--primaryColor1);
   }
+  svg text {
+    font-family: Lora;
+    letter-spacing: 10px;
+    stroke: var(--primaryColor2);
+    font-size: 58px;
+    font-weight: 700;
+    stroke-width: 3;
+    animation: textAnimate 5s infinite alternate;
+    
+  }
   @media (max-width: 994px){
     .navbar,
     .navbar .container-fluid{
@@ -622,6 +632,9 @@ a{
     }
 }
 @media (max-width: 450px){
+    svg text{
+        font-size: 48px;
+    }
     .description-img,
     .description-img img{
         width: 100vw;
@@ -631,7 +644,7 @@ a{
     }
     .flex .descriptions:first-of-type,
     .flex .descriptions{
-        margin-left: 10px;
+        margin-left: 20px;
     }
     .experience-section li{
         width: 80%;
@@ -661,11 +674,22 @@ a{
     .projects{
         padding: 10px;
         width: 90%;
-        height: 200px;
+        height: 320px;
     }
     .line{
         width: 200px;
     }
+    .flex .descriptions{
+        margin-top: 10px;
+    }
+    #about .flex{
+        justify-content: center;
+    }
+    .buttons{
+        display: flex;
+        justify-content: center;
+    }
+    
 }
 .swiper {
     width: 100%;
@@ -709,16 +733,7 @@ a{
     border-radius: 0 0 10px 10px;
   }
 
-  svg text {
-    font-family: Lora;
-    letter-spacing: 10px;
-    stroke: var(--primaryColor2);
-    font-size: 58px;
-    font-weight: 700;
-    stroke-width: 3;
-    animation: textAnimate 5s infinite alternate;
-    
-  }
+  
   
   @keyframes textAnimate {
     0% {
