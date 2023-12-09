@@ -3,7 +3,8 @@ import img1 from "../assets/feane.png";
 import img2 from "../assets/ecommerce.jpg";
 import img3 from "../assets/port.png";
 import img4 from "../assets/todo.png";
-import { Navigation, FreeMode, } from 'swiper/modules';
+import img5 from "../assets/myBlog.png";
+import {  FreeMode, Autoplay, } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -21,8 +22,11 @@ const Prpject = () => {
         slidesPerView="auto"
         spaceBetween={30}
         freeMode={true}
-        navigation={true}
-        modules={[FreeMode, Navigation]}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        modules={[FreeMode,  Autoplay]}
         className="mySwiper"
         breakpoints={{
           // When window width is >= 640px
@@ -79,6 +83,16 @@ const Prpject = () => {
         </Link>
         <div className="project-desp">
           <Link to='https://github.com/SimranThakur07/todo-app-main' target="_blank">Todo App <i className="fa-solid fa-arrow-up-right-from-square"></i></Link>
+        </div>
+        </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="project-card">
+        <Link >
+          <img src={img5} alt="" />
+        </Link>
+        <div className="project-desp">
+          <Link to='https://github.com/SimranThakur07/myBlog' target="_blank">My Blog <i className="fa-solid fa-arrow-up-right-from-square"></i></Link>
         </div>
         </div>
         </SwiperSlide>

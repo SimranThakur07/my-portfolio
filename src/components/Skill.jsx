@@ -9,7 +9,7 @@ const Skill = () => {
         </div>
         <div className="skills">
             <div className="project">
-            <span className="left-skill">JavaScript</span>
+            <span className="left-skill">JavaScript ES6</span>
             <div className="circle"></div>
             </div>
             <div className="project">

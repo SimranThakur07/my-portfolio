@@ -43,13 +43,13 @@ const About = () => {
                 </a>
               </span>
               <span>
-                <a href="" target="_blank" rel="noreferrer" className="socialContainer containerThree"> 
-                  <i className="fa-brands fa-instagram socialSvg"></i>
+                <a href="" target="_blank" rel="noreferrer" className="socialContainer containerFour">
+                  <i className="fa-solid fa-globe socialSvg"></i>
                 </a>
               </span>
               <span>
-                <a href="" target="_blank" rel="noreferrer" className="socialContainer containerFour">
-                  <i className="fa-solid fa-globe socialSvg"></i>
+                <a href="" target="_blank" rel="noreferrer" className="socialContainer containerThree"> 
+                  <i className="fa-brands fa-instagram socialSvg"></i>
                 </a>
               </span>
             </div>

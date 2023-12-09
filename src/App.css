@@ -6,9 +6,10 @@
 
 :root{
     --primaryColor1:#fff ;
-    --primaryColor2: #F5455E;
-    --primaryColor3:#183159;
+    --primaryColor2: #FAF169;
+    --primaryColor3: #154128;
     --primaryColor4:#607496 ;
+    --primaryColor5:#000 ;
 }
 html{
     overflow-x: hidden;
@@ -41,7 +42,7 @@ a{
     font-size: 18px;
 }
 .navbar-brand{
-    color: var(--primaryColor2) !important;
+    color: var(--primaryColor1) !important;
     font-size: 26px;
     letter-spacing: 2px;
 }
@@ -54,6 +55,7 @@ a{
 /* ==========================End for Navbar======================== */
 
 /* ==========================Style for Slider======================== */
+
 .card{
     border: none;
 }
@@ -100,6 +102,7 @@ a{
 }
 .buttons a:first-of-type{
     background-color: var(--primaryColor2);
+    color: var(--primaryColor5);
     margin-right: 25px;
 }
 .buttons a:hover{
@@ -266,7 +269,7 @@ a{
 }
 .fa-circle{
   font-size: 12px;
-    color: var(--primaryColor2);
+    color: var(--primaryColor5);
     margin: 0 4px;
 }
 .experience-section li p{
@@ -461,7 +464,7 @@ a{
     width: 100%;
     text-transform: uppercase;
     padding: 7px;
-    color: var(--primaryColor1);
+    color: var(--primaryColor5);
     background-color: var(--primaryColor2);
     border: none;
     border-radius: 5px;
@@ -502,7 +505,7 @@ a{
     padding: 15px 0;
   }
   .box1 h3{
-    color: var(--primaryColor2);
+    color: var(--primaryColor1);
     letter-spacing: 1px;
   }
   .box{
@@ -727,7 +730,7 @@ a{
     bottom: 0;
     left: 0;
     background: var(--primaryColor1);
-    color: var(--primaryColor2);
+    color: var(--primaryColor5);
     width: 100%;
     padding: 8px 0;
     border-radius: 0 0 10px 10px;
